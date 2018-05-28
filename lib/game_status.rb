@@ -40,4 +40,8 @@ def draw?(board)
   return false
 end
 
+def over?(board)
+  
+end
+
 
