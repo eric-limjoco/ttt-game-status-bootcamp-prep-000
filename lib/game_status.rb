@@ -47,4 +47,13 @@ def over?(board)
   return false
 end
 
+def winner(board)
+  combo = won?(board)
+  
+  if combo
+    return board[combo[0]]
+  end
+  return nil
+end
+
 
