@@ -30,6 +30,14 @@ def won?(board)
 end
 
 def full?(board)
-  
   return !board.any?{|c| c == " "}
 end
+
+def draw?(board)
+  if full?(board) && !won?(board)
+    return true
+  end
+  return false
+end
+
+
