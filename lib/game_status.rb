@@ -38,5 +38,5 @@ def full?(board)
   end
   return true
   
-  return board.any?(" ")
+  return board.any?{|c| c == " "}
 end
