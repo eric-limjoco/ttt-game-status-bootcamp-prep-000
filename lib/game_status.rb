@@ -26,5 +26,5 @@ def won(board)
       return combo
     end
   end
-  return nil
+  return false
 end
