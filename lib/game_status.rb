@@ -21,7 +21,5 @@ def won(board)
     if position_taken(board, combo[0]) && position_taken(board, combo[1]) && position_taken(board, combo[2]) && board[combo[0]] == board[combo[1]] && board[combo[1]] == board[combo[2]]
     return combo
   end
-  end
-  
   return nil
 end
