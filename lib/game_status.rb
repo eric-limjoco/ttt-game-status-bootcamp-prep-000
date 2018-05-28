@@ -37,4 +37,6 @@ def full?(board)
     end
   end
   return true
+  
+  return board.any?(" ")
 end
