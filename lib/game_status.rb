@@ -28,3 +28,13 @@ def won?(board)
   end
   return false
 end
+
+def full?(board)
+  
+  board.each do |c|
+    if c != "X" && c != "O"
+      return false
+    end
+  end
+  return true
+end
